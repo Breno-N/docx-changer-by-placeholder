@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tese-front": {
+    "docx-changer-by-placeholder": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tese-front",
+            "outputPath": "dist/docx-changer-by-placeholder",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tese-front:build:production"
+              "browserTarget": "docx-changer-by-placeholder:build:production"
             },
             "development": {
-              "browserTarget": "tese-front:build:development"
+              "browserTarget": "docx-changer-by-placeholder:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tese-front:build"
+            "browserTarget": "docx-changer-by-placeholder:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "tese-front"
+  "defaultProject": "docx-changer-by-placeholder"
 }
